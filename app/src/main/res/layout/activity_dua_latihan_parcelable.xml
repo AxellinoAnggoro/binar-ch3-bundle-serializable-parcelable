@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityDuaLatihanParcelable">
+
+    <TextView
+        android:id="@+id/titleParcel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:text="My Data"/>
+
+    <TextView
+        android:id="@+id/viewNameParcel"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/titleParcel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/viewEmailParcel"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/viewNameParcel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/viewPhoneParcel"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/viewEmailParcel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/viewAddressParcel"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/viewPhoneParcel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/viewAgeParcel"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/viewAddressParcel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

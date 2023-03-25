@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LatihanParcelable">
+
+
+    <EditText
+        android:id="@+id/inputNameParcel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input name"/>
+
+    <EditText
+        android:id="@+id/inputEmailParcel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputNameParcel"
+        android:hint="email"/>
+
+    <EditText
+        android:id="@+id/inputPhoneParcel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputEmailParcel"
+        android:hint="phone"/>
+
+    <EditText
+        android:id="@+id/inputAddressParcel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputPhoneParcel"
+        android:hint="address"/>
+
+
+    <EditText
+        android:id="@+id/inputAgeParcel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputAddressParcel"
+        android:hint="age"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/saveBtnParcel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputAgeParcel"
+        android:text="save"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
